@@ -9,7 +9,7 @@ Download and install the tools below:
 3. [Git](https://git-scm.com/downloads)
 
 > **Note**
-> _When you install Git_
+> When you install Git
 > please change the default editor used by git to: _Use Visual Studio Code as Git's default editor_.
 
 ### Join Discord Community Server
@@ -75,3 +75,29 @@ Following the steps below:
      $ git push origin main
    ```
    Make sure to check the changes before the push, so there is no conflict.
+
+### Setup Check Point
+
+Following the steps below:
+
+1. Your Structure Folder:
+
+   - 001_Git (Pull from playground)
+     - folder: practice:
+       - file task
+       - file practice.md
+     - folder: screenshot:
+       - file image with extention _.png / .jpg_
+
+2. Format File practice.md
+
+```
+# Resume
+
+## Links
+1. [Link Name](path)
+2. [Link Name](path)
+
+## Screenshots
+![Name](path)
+```
