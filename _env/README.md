@@ -8,7 +8,8 @@ Download and install the tools below:
 2. [Visual Studio Code](https://code.visualstudio.com/download)
 3. [Git](https://git-scm.com/downloads)
 
-> **Note** > _When you install Git_
+> **Note**
+> _When you install Git_
 > please change the default editor used by git to: _Use Visual Studio Code as Git's default editor_.
 
 ### Join Discord Community Server
