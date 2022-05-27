@@ -1,5 +1,8 @@
 # Command Line
 
+The command line is a tool for interacting with a computer using only text (also known as a text interface) rather than other methods like clicking and scrolling. Let's learn these skills thoroughly because they are essential for developing websites and applications!
+UNIX command is a type of command that’s used in Linux and macOS.
+
 ## Getting Started
 
 - Creating Files
