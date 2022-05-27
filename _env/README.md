@@ -50,9 +50,28 @@ Following the steps below:
 Following the steps below:
 
 1. Create folder with the name _ukmitcybernetix_
-2. Create repository with the name _CX(Generation)-(CalledName)_
+2. Create repository with the name _CX(Generation)-(CalledName)_ , example (CX12-ARFAN)
 3. Open a terminal/shell and type:
    ```
      $ git clone [your repository https/ssh]
    ```
-4. Add playground remote
+4. Add playground remote upstream from url, [here](https://github.com/ukmit-cybernetix/playground.git)
+   ```
+     $ git remote add upstream https://github.com/ukmit-cybernetix/playground.git
+   ```
+5. Make sure you have 4 remote repositories:
+   ```
+     $ git remote -v
+     $ cd name _CX(Generation)-(CalledName), example (cd CX12_ARFAN)
+     $ git remote -v
+   origin	  hhttps://github.com/ukmit-cybernetix/CX12-ARFAN.git (fetch)
+   origin	  hhttps://github.com/ukmit-cybernetix/CX12-ARFAN.git (push)
+   upstream  https://github.com/ukmit-cybernetix/playground.git(fetch)
+   upstream  https://github.com/ukmit-cybernetix/playground.git(push)
+   ```
+6. Pull data from the remote upstream and then push it to your remote origin
+   ```
+     $ git pull upstream master
+     $ git push origin master
+   ```
+   Make sure to check the changes before the push, so there is no conflict
