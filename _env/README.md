@@ -61,7 +61,6 @@ Following the steps below:
    ```
 5. Make sure you have 4 remote repositories:
    ```
-     $ git remote -v
      $ cd name _CX(Generation)-(CalledName), example (cd CX12_ARFAN)
      $ git remote -v
    origin	  hhttps://github.com/ukmit-cybernetix/CX12-ARFAN.git (fetch)
