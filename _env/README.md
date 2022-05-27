@@ -61,16 +61,16 @@ Following the steps below:
    ```
 5. Make sure you have 4 remote repositories:
    ```
-     $ cd name _CX(Generation)-(CalledName), example (cd CX12_ARFAN)
+     $ cd name CX(Generation)-(CalledName), example (cd CX12_ARFAN)
      $ git remote -v
-   origin	  hhttps://github.com/ukmit-cybernetix/CX12-ARFAN.git (fetch)
-   origin	  hhttps://github.com/ukmit-cybernetix/CX12-ARFAN.git (push)
-   upstream  https://github.com/ukmit-cybernetix/playground.git(fetch)
-   upstream  https://github.com/ukmit-cybernetix/playground.git(push)
+         origin hhttps://github.com/ukmit-cybernetix/CX12-ARFAN.git (fetch)
+         origin hhttps://github.com/ukmit-cybernetix/CX12-ARFAN.git (push)
+         upstream  https://github.com/ukmit-cybernetix/playground.git(fetch)
+         upstream  https://github.com/ukmit-cybernetix/playground.git(push)
    ```
 6. Pull data from the remote upstream and then push it to your remote origin
    ```
      $ git pull upstream main
      $ git push origin main
    ```
-   Make sure to check the changes before the push, so there is no conflict
+   Make sure to check the changes before the push, so there is no conflict.
