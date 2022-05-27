@@ -71,7 +71,7 @@ Following the steps below:
    ```
 6. Pull data from the remote upstream and then push it to your remote origin
    ```
-     $ git pull upstream master
-     $ git push origin master
+     $ git pull upstream main
+     $ git push origin main
    ```
    Make sure to check the changes before the push, so there is no conflict
