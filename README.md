@@ -8,7 +8,7 @@ merupakan program pembelajaran soft-skill dan hard-skill yang berfokus pada perk
 
 #### A. Hard-Skills
 
-1. [Git](./Git/README.md)
+1. [Git](./01_Git/README.md)
 2. [Github](./Github/README.md)
 3. [Figma](./Figma/README.md)
 4. [UI-UX-Design](./UI-UX-Design/README.md)
