@@ -44,3 +44,15 @@ Following the steps below:
    ```
      $ git config --list
    ```
+
+### Setup Workspace
+
+Following the steps below:
+
+1. Create folder with the name _ukmitcybernetix_
+2. Create repository with the name _CX(Generation)-(CalledName)_
+3. Open a terminal/shell and type:
+   ```
+     $ git clone [your repository https/ssh]
+   ```
+4. Add playground remote
