@@ -56,20 +56,20 @@ Following the steps below:
    ```
      $ git clone [your repository https/ssh]
    ```
-4. Add playground remote upstream from url, [here](https://github.com/ukmit-cybernetix/playground.git)
-   ```
-     $ git remote add upstream https://github.com/ukmit-cybernetix/playground.git
-   ```
-5. Make sure you have 4 remote repositories:
+   . Add playground remote upstream from url, [here](https://github.com/ukmit-cybernetix/playground.git)
    ```
      $ cd name CX(Generation)-(CalledName), example (cd CX12_ARFAN)
+     $ git remote add upstream https://github.com/ukmit-cybernetix/playground.git
+   ```
+4. Make sure you have 4 remote repositories:
+   ```
      $ git remote -v
          origin hhttps://github.com/ukmit-cybernetix/CX12-ARFAN.git (fetch)
          origin hhttps://github.com/ukmit-cybernetix/CX12-ARFAN.git (push)
          upstream  https://github.com/ukmit-cybernetix/playground.git(fetch)
          upstream  https://github.com/ukmit-cybernetix/playground.git(push)
    ```
-6. Pull data from the remote upstream and then push it to your remote origin
+5. Pull data from the remote upstream and then push it to your remote origin
    ```
      $ git pull upstream main
      $ git push origin main
