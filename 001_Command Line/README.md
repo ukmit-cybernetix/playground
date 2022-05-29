@@ -74,3 +74,9 @@ $ cp file_to_copy new_file_name
 ```bash
 $ rm file_to_remove
 ```
+
+- Removing a Directory
+
+```bash
+$ rm Directory_name
+```
